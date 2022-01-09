@@ -43,6 +43,6 @@ def canConstruct(target: int, wordBank: List[str]) -> bool:
     
     return build(target)
 
-print(canConstruct("abcdef", ["ab", "abc", "cd","def","abcd"])) # True
-print(canConstruct("skateboard", ["bo", "rd", "ate","t","ska","sk","boar"])) # False
-print(canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", ["e", "ee", "eee","eeee","eeeee","eeeeee"])) # False
+print(canConstruct("abcdef", ["ab", "abc", "cd", "def", "abcd"])) # True
+print(canConstruct("skateboard", ["bo", "rd", "ate", "t", "ska", "sk", "boar"])) # False
+print(canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", ["e", "ee", "eee", "eeee", "eeeee", "eeeeee"])) # False
